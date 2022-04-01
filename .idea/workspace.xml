@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="369e68fe-7306-4988-b86d-655f19c116d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi/src/main/java/com/example/baithi/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi/src/main/java/com/example/baithi/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi/src/main/java/com/example/baithi/model/ProductType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi/src/main/java/com/example/baithi/reponsitory/IProductReponsitory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi/src/main/java/com/example/baithi/reponsitory/IProductTypeReponsitory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi/src/main/java/com/example/baithi/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi/src/main/java/com/example/baithi/service/IProductTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi/src/main/java/com/example/baithi/service/impl/ProductImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi/src/main/java/com/example/baithi/service/impl/ProductTypeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi/src/main/resources/templates/product/listProduct.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/java/com/example/baithi1/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/java/com/example/baithi1/dto/ProductDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/java/com/example/baithi1/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/java/com/example/baithi1/model/ProductType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/java/com/example/baithi1/reponsitory/IProductReponsitory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/java/com/example/baithi1/reponsitory/IProductTypeReponsitory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/java/com/example/baithi1/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/java/com/example/baithi1/service/IProductTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/java/com/example/baithi1/service/impl/ProductImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/java/com/example/baithi1/service/impl/ProductTypeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/resources/static/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/resources/static/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/resources/static/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/resources/static/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/resources/static/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/resources/static/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/resources/static/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/resources/static/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/resources/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/resources/static/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/resources/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/resources/static/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/resources/static/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/resources/static/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/resources/static/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/resources/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/resources/static/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/resources/static/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/resources/templates/product/createForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/resources/templates/product/editForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module_4/baithi1/src/main/resources/templates/product/productList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module_4/case_study/src/main/java/com/example/demo/controller/customer/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Module_4/case_study/src/main/java/com/example/demo/controller/customer/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module_4/thithu/src/main/java/com/example/thithu/controller/GiaoDichController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Module_4/thithu/src/main/java/com/example/thithu/controller/GiaoDichController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module_4/thithu/src/main/java/com/example/thithu/model/GiaoDich.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Module_4/thithu/src/main/java/com/example/thithu/model/GiaoDich.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module_4/thithu/src/main/java/com/example/thithu/model/KhachHang.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Module_4/thithu/src/main/java/com/example/thithu/model/KhachHang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module_4/thithu/src/main/java/com/example/thithu/reponsitory/GiaoDichReponsitory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Module_4/thithu/src/main/java/com/example/thithu/reponsitory/GiaoDichReponsitory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module_4/thithu/src/main/java/com/example/thithu/reponsitory/KhachHangReponsitory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Module_4/thithu/src/main/java/com/example/thithu/reponsitory/KhachHangReponsitory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module_4/thithu/src/main/java/com/example/thithu/service/IGiaoDichService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Module_4/thithu/src/main/java/com/example/thithu/service/IGiaoDichService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module_4/thithu/src/main/java/com/example/thithu/service/IKhachHangService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Module_4/thithu/src/main/java/com/example/thithu/service/IKhachHangService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module_4/thithu/src/main/java/com/example/thithu/service/impl/GiaoDichService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Module_4/thithu/src/main/java/com/example/thithu/service/impl/GiaoDichService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module_4/thithu/src/main/java/com/example/thithu/service/impl/KhachHangService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Module_4/thithu/src/main/java/com/example/thithu/service/impl/KhachHangService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module_4/thithu/src/main/resources/templates/giao_dich/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Module_4/thithu/src/main/resources/templates/giao_dich/list.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="27B1JnAPdPPeJRbdehQFXvMmPDl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="369e68fe-7306-4988-b86d-655f19c116d8" name="Changes" comment="" />
+      <created>1648778595558</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648778595558</updated>
+      <workItem from="1648778596667" duration="59000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
