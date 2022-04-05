@@ -1,0 +1,33 @@
+
+<div class="container">
+  <div class="row">
+    <div class="col-12 mb-5 mt-5">
+      <h1 style="text-align: center;margin-top: 10px;margin-bottom :10px;font-family: 'Bookman Old Style'"> List Customer</h1>
+      <table class="table" style="color: black;font-family: 'Bookman Old Style'">
+        <thead>
+        <tr>
+          <th scope="col">Full name</th>
+          <th scope="col">DOB</th>
+          <th scope="col">ID Card</th>
+          <th scope="col">Phone Number</th>
+          <th scope="col">Position</th>
+          <th>View</th>
+          <th>Edit</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let employee of emp">
+          <td>{{employee.name}}</td>
+          <td>{{employee.dateOfBirth}}</td>
+          <td>{{employee.idCard}}</td>
+          <td>{{employee.phoneNumber}}</td>
+          <td>{{employee.position}}</td>
+          <td><button>View</button></td>
+          <td><button>Edit</button></td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+

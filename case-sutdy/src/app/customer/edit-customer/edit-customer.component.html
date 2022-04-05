@@ -1,0 +1,68 @@
+<h1 style="font-family: 'Bookman Old Style';text-align: center;color: #046056">Form edit customer</h1>
+<form style="border-style: solid ;margin-bottom: 20px;border-radius: 10px;font-family: 'Bookman Old Style'" class="container">
+  <div class="container" style="margin-bottom: 5px;margin-top: 5px">
+    <div class="row">
+      <div class="col-6" style="margin-top: 10px">
+        <div class="form-group">
+          <label for="nameCustomer">Name Customer</label>
+          <input type="text" class="form-control" id="nameCustomer" aria-describedby="Name Customer" placeholder="Name customer">
+        </div>
+        <div class="form-group">
+          <label for="dateOfBirth">Date Of Birth</label>
+          <input type="date" class="form-control" id="dateOfBirth" >
+        </div>
+      </div>
+      <div class="col-6" style="margin-top: 10px">
+        <div class="form-group">
+          <label for="gender">Gender</label>
+          <br>
+          <select id="gender">
+            <option value="-1">
+              Giới Tính
+            </option>
+            <option value="0">
+              Nam
+            </option>
+            <option value="1">
+              Nữ
+            </option>
+          </select>
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="customerType">Customer Type</label>
+          <br>
+          <select id="customerType">
+            <option value="-1">
+              Hạng khách hàng
+            </option>
+            <option value="0">
+              Gold
+            </option>
+            <option value="1">
+              Sliver
+            </option>
+            <option value="1">
+              Bronze
+            </option>
+            <option value="1">
+              Member
+            </option>
+          </select>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="form-group">
+          <label for="addressCustomer">Customer adress</label>
+          <input type="text" class="form-control" id="addressCustomer" aria-describedby="Customer Adress">
+        </div>
+      </div>
+    </div>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Are you sure with the information you entered?</label>
+    </div>
+    <button type="submit" class="btn btn-primary"style="margin-bottom: 10px;margin-top: 10px">Submit</button>
+  </div>
+
+</form>
