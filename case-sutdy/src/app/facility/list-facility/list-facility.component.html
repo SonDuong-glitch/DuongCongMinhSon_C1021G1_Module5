@@ -1,17 +1,17 @@
-  <div class="container mb-3 mt-3" style="border-style: solid; font-family: 'Bookman Old Style'">
+  <div class="container mb-5 mt-3" style="border-style: solid; font-family: 'Bookman Old Style'">
     <h1 style="text-align: center"> Lits Facility </h1>
     <div class="card-group">
-      <div class="col-4">
-        <div class="card mb-1 mt-1">
-          <img class="card-img-top" src="https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Ocean-Suite-Feature-370x239.jpg" alt="Card image cap">
+      <div class="col-4" *ngFor="let facility of listFacility">
+        <div class="card mb-1 mt-1" >
+          <img class="card-img-top" src="{{facility.img}}" alt="Card image cap">
           <div class="card-body">
             <div class="row">
               <div class="col">
-                <h4 class="card-title">Ocean Suite</h4>
+                <h4 class="card-title">{{facility.name}}</h4>
               </div>
               <div class="col-auto">
                 <i class="bi bi-info-circle"></i>
-                <a href="#" style="margin-left: 6px"><small>Know more</small></a>
+                <a href="#"><small>Know more</small></a>
               </div>
             </div>
             <div class="row">
@@ -22,68 +22,6 @@
                 <button style="border-radius: 20px;background-color: #046056;color: white"> Book now </button>
               </div>
             </div>
-
-
-          </div>
-        </div>
-        <div class="card mt-1 mb-1">
-          <img class="card-img-top" src="https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Ocean-Studio-Suite-F-370x239.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Ocean Studio Suite</h4>
-            <small class="card-text">Room Size 40.1 m²</small>
-          </div>
-        </div>
-        <div class="card mt-1 mb-1">
-          <img class="card-img-top" src="https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Ocean-Deluxe-double-bed-F-370x239.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Ocean Deluxe</h4>
-            <small class="card-text">Room Size 43.7 m²</small>
-          </div>
-        </div>
-      </div>
-      <div class="col-4">
-        <div class="card mb-1 mt-1">
-          <img class="card-img-top" src="https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Lagoon-Superior-twin-bed-F-370x239.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Lagon superior</h4>
-            <small class="card-text">Room Size 40.1 m²</small>
-          </div>
-        </div>
-        <div class="card mt-1 mb-1">
-          <img class="card-img-top" src="https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Garden-Superior-TwinBed-1-F-370x239.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Garden Superior</h4>
-            <small class="card-text">Room Size 43.7 m²</small>
-          </div>
-        </div>
-        <div class="card mt-1 mb-1">
-          <img class="card-img-top" src="https://furamavietnam.com/wp-content/uploads/2018/08/Vietnam_Danang_Furama_Garden-Deluxe-twin-bed-F-370x239.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Garden Deluxe</h4>
-            <small class="card-text">Room Size 130 m²</small>
-          </div>
-        </div>
-      </div>
-      <div class="col-4">
-        <div class="card mb-1 mt-1">
-          <img class="card-img-top" src="https://furamavietnam.com/wp-content/uploads/2018/08/Vietnam_Danang_Furama_Garden-Deluxe-twin-bed-F-370x239.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Presidential suite</h4>
-            <small class="card-text">Room Size 900 m²</small>
-          </div>
-        </div>
-        <div class="card mt-1 mb-1">
-          <img class="card-img-top" src="https://furamavietnam.com/wp-content/uploads/2018/08/Vietnam_Danang_Furama_Villas_Beach_Pool_Villas-_Exterior-1-F-370x239.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Beach Front Villas</h4>
-            <small class="card-text">Room Size 85.8 m²</small>
-          </div>
-        </div>
-        <div class="card mt-1 mb-1">
-          <img class="card-img-top" src="https://furamavietnam.com/wp-content/uploads/2018/08/Vietnam_Danang_Furama_Villas_Pool_Villas-F-370x239.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Pool Vilas</h4>
-            <small class="card-text">Room Size 320 m²</small>
           </div>
         </div>
       </div>
