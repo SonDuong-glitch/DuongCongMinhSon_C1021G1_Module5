@@ -14,40 +14,12 @@
         </tr>
         </thead>
         <tbody>
-        <tr>
-          <td>Sơn Dương</td>
-          <td>26/02/1998</td>
-          <td>Male</td>
-          <td>Gold</td>
-          <td>Quảng Bình, Việt Nam</td>
-        </tr>
-        <tr>
-          <td>Sơn Dương</td>
-          <td>26/02/1998</td>
-          <td>Male</td>
-          <td>Gold</td>
-          <td>Quảng Bình, Việt Nam</td>
-        </tr>
-        <tr>
-          <td>Sơn Dương</td>
-          <td>26/02/1998</td>
-          <td>Male</td>
-          <td>Gold</td>
-          <td>Quảng Bình, Việt Nam</td>
-        </tr>
-        <tr>
-          <td>Sơn Dương</td>
-          <td>26/02/1998</td>
-          <td>Male</td>
-          <td>Gold</td>
-          <td>Quảng Bình, Việt Nam</td>
-        </tr>
-        <tr>
-          <td>Sơn Dương</td>
-          <td>26/02/1998</td>
-          <td>Male</td>
-          <td>Gold</td>
-          <td>Quảng Bình, Việt Nam</td>
+        <tr *ngFor="let customer of customerList">
+          <td>{{customer.fullName}}</td>
+          <td>{{customer.dateOfBirth}}</td>
+          <td>{{customer.gender}}</td>
+          <td>{{customer.customerType}}</td>
+          <td>{{customer.customerAdress}}</td>
         </tr>
         </tbody>
       </table>

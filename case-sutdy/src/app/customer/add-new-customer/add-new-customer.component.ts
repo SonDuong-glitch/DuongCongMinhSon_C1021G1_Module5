@@ -6,10 +6,32 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./add-new-customer.component.css']
 })
 export class AddNewCustomerComponent implements OnInit {
-
+  customerType = [
+    {
+      type: 'Gold'
+    },
+    {
+      type: 'Silver'
+    },
+    {
+      type: 'Bronze'
+    },
+    {
+      type: 'Member'
+    }
+  ];
+  customerGender = [
+    {
+      gender: 'Nam'
+    },
+    {
+    gender: 'Nữ'
+    }
+  ];
   constructor() { }
 
   ngOnInit() {
   }
-
+  addNewCustomer() {
+  }
 }

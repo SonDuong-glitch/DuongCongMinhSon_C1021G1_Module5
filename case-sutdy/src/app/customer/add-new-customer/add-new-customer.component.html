@@ -20,11 +20,8 @@
             <option value="-1">
               Giới Tính
             </option>
-            <option value="0">
-              Nam
-            </option>
-            <option value="1">
-              Nữ
+            <option *ngFor="let gender of customerGender">
+              {{gender.gender}}
             </option>
           </select>
         </div>
@@ -36,17 +33,8 @@
             <option value="-1">
               Hạng khách hàng
             </option>
-            <option value="0">
-              Gold
-            </option>
-            <option value="1">
-              Sliver
-            </option>
-            <option value="1">
-              Bronze
-            </option>
-            <option value="1">
-              Member
+            <option *ngFor="let customerType of customerType">
+              {{customerType.type}}
             </option>
           </select>
         </div>
