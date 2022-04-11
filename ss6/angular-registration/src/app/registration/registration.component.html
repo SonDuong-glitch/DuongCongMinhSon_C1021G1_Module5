@@ -1,0 +1,53 @@
+<h1>From Sign</h1>
+<div class="container">
+  <div class="col-6">
+    <form [formGroup]="registration" (ngSubmit)="onSubmit()">
+      <label>Email</label>
+      <input formControlName="email" class="form-control" type="email" id="email" placeholder="example@gmail.com" name="email">
+      <div *ngIf="!email.valid && (email.dirty)">
+        <div [hidden]="!email.errors.required">
+          <p class="text-danger"> Email is required</p>
+        </div>
+        <div [hidden]="!email.errors.pattern">
+          <p class="text-danger">Wrong email format</p>
+      </div>
+      </div>
+      <label for="password">Password</label>
+      <input formControlName="password" class="form-control" type="password" id="password" placeholder="Enter your password here" name="password">
+      <div *ngIf="!pass.valid && (pass.dirty )">
+        <div [hidden]="!pass.hasError('minlength')">
+          <p class="text-danger"> Password min length is 6</p>
+        </div>
+        <div [hidden]="!pass.errors.required">
+          <p class="text-danger"> Password is required</p>
+        </div>
+      </div>
+      <label>Age</label>
+      <input formControlName="age" class="form-control" type="number" id="age" name="age">
+      <div [hidden]="!age.hasError('min')">
+        <p class="text-danger"> Must > 18 </p>
+      </div>
+      <label>Gender</label>
+      <select formControlName="gender" class="form-control" name="gender">
+        <option value="male">Nam</option>
+        <option value="female">Nữ</option>
+      </select>
+      <br>
+      <label>Address</label>
+      <input formControlName="country" class="form-control" type="text"  name="country">
+      <label>Phone</label>
+      <input formControlName="phone" class="form-control" type="number" id="phone" name="phone" placeholder="input phone number here">
+      <div *ngIf="!phoneNumber.valid && (email.dirty)">
+        <div [hidden]="!phoneNumber.errors.required">
+          <p class="text-danger"> Phone is required</p>
+        </div>
+        <div [hidden]="!phoneNumber.errors.pattern">
+          <p class="text-danger">Wrong Phone format</p>
+        </div>
+      </div>
+      <button type="submit"
+              class="btn btn-primary">Submit
+      </button>
+    </form>
+  </div>
+</div>

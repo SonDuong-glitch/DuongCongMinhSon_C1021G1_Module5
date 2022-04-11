@@ -19,6 +19,7 @@ import { AddNewEmployeeComponent } from './employee/add-new-employee/add-new-emp
 import { AddNewFacilityComponent } from './facility/add-new-facility/add-new-facility.component';
 import { EditFacilityComponent } from './facility/edit-facility/edit-facility.component';
 import { ListFacilityComponent } from './facility/list-facility/list-facility.component';
+import {FormsModule} from '@angular/forms';
 const routes: Routes = [
   {
     path: 'customerList',
@@ -96,11 +97,12 @@ const routes: Routes = [
     EditFacilityComponent,
     ListFacilityComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    RouterModule.forRoot(routes)
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        RouterModule.forRoot(routes),
+        FormsModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

@@ -5,11 +5,11 @@
       <div class="col-6" style="margin-top: 10px">
         <div class="form-group">
           <label for="nameCustomer">Name Customer</label>
-          <input type="text" class="form-control" id="nameCustomer" aria-describedby="Name Customer" placeholder="Name customer">
+          <input type="text" class="form-control" id="nameCustomer" aria-describedby="Name Customer" placeholder="Name customer" [(ngModel)]="name">
         </div>
         <div class="form-group">
           <label for="dateOfBirth">Date Of Birth</label>
-          <input type="date" class="form-control" id="dateOfBirth" >
+          <input type="date" class="form-control" id="dateOfBirth" [(ngModel)]="date">
         </div>
       </div>
       <div class="col-6" style="margin-top: 10px">
@@ -42,7 +42,7 @@
       <div class="col-6">
         <div class="form-group">
           <label for="addressCustomer">Customer adress</label>
-          <input type="text" class="form-control" id="addressCustomer" aria-describedby="Customer Adress">
+          <input type="text" class="form-control" id="addressCustomer" aria-describedby="Customer Adress" [(ngModel)]="address">
         </div>
       </div>
     </div>
@@ -50,6 +50,6 @@
       <input type="checkbox" class="form-check-input" id="exampleCheck1">
       <label class="form-check-label" for="exampleCheck1">Are you sure with the information you entered?</label>
     </div>
-    <button type="submit" class="btn btn-primary"style="margin-bottom: 10px;margin-top: 10px">Submit</button>
+    <button (click)="addNewCustomer()"  class="btn btn-primary"style="margin-bottom: 10px;margin-top: 10px">Submit</button>
   </div>
 </form>
