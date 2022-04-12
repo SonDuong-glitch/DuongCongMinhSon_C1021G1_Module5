@@ -1,0 +1,9 @@
+<tr>
+  <th>Tieng Viet</th>
+  <th>Tieng Anh</th>
+</tr>
+<tr *ngFor="let item of wordList">
+  <td>{{item.word}}</td>
+  <td>{{item.mean}}</td>
+  <td><a routerLink='findById/mean/{{item.id}}'>Information</a></td>
+</tr>
