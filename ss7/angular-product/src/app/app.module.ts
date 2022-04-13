@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { ProductListComponent } from './product/product-list/product-list.component';
 import { ProductCreateComponent } from './product/product-create/product-create.component';
 import {ReactiveFormsModule} from '@angular/forms';
+import { FindIdProductComponent } from './product/find-id-product/find-id-product.component';
+import { RemoveProductComponent } from './remove-product/remove-product.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductListComponent,
-    ProductCreateComponent
+    ProductCreateComponent,
+    FindIdProductComponent,
+    RemoveProductComponent
   ],
     imports: [
         BrowserModule,
